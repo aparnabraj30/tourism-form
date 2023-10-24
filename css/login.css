@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url(/images/login_bg.jpg);
+    background-size: cover; /* Cover the entire form with the background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width: 100%;
+    height: 12%;
+    margin:auto;
+    padding: 30px 0;
+    display:flex;
+    align-items:initial;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 20px;
+    padding-bottom: -50px;
+}
+
+.navbar .dropdown {
+    flex-grow: 1;
+}
+
+.custom-select{
+    width: 500px;
+}
+
+.logo{
+
+    padding-top: 10px;
+    width: 90px; 
+    height: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 2px solid black; */
+    margin-top: -2%;
+    margin-left: 1%;
+    
+}
+    
+.logo img {
+    width: 50px; 
+    height: 50px;
+    padding-top: 2px; 
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    padding-right: 33px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: teal;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+/* styles.css */
+.custom-heading h3{
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold; /* Text color */
+    text-align: center; /* Align text to center */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+
+/* styles.css */
+.custom-label {
+    font-weight: bold;
+}
+
+/* Add any custom styles for your form container here */
+.container {
+    margin-top: 2%;
+}
+
+/* Optional: Add custom styles to adjust the form width and alignment */
+.col-md-3 {
+    width: 100%; /* Adjust the width as needed */
+}
+
+/* Optional: If you want to center the form horizontally, you can use the following styles */
+.col-md-6 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+form{
+    float: right;
+    margin-top: 20%;
+    padding-right: 2%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(/images/veruthe.jpg);
+    background-size:cover; /* Cover the entire form with the background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    padding: 20px;
+    text-align: right;
+    padding-left: 10%;
+    box-shadow: -2px -2px 20px white;
+    border-radius: 5%;
+    padding-right: 10%;
+    margin-left: -80%;
+    margin-right: 20%;
+}
+
+/* styles.css */
+/* styles.css */
+.custom-heading-left {
+    text-align: left; /* Align the heading to the left */
+}
+
+
+.form-control {
+    border: 1px solid white;
+    padding: 10px;
+    
+}
+
+.form-select {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.form-check{
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    display: flex; 
+   
+    width: 500px;
+    padding-right: 0%;
+}
+.form-check a{
+    color: white;
+    text-align: right;
+    padding-left: 234.7px;
+    margin-right: 0%;
+    width: 300px;
+   
+}
+
+.btn-teal {
+    background-color: #008080; /* Teal color */
+    color: white; /* Text color */
+    font-size: 20px;
+    box-shadow: #f0f0f0;
+}
+
+.btn-teal:hover {
+    background-color: #008080 !important;
+    color: white;
+     /* Prevent hover color change with !important */
+}
+/* Add more custom styles as needed */
+
+.with-shadow {
+    box-shadow: 4px 4px 4px rgba(0, 128, 128, 0.2); /* Teal shadow effect */
+}
+
+.new-acnt {
+    text-align: left;
+    display:flex;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+.new-acnt p{
+    color: white;
+    margin-right: 7px;
+}
+.new-acnt a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    background-color: black;
+    margin-top: 0.4%;
+    height: 60px;
+    margin-bottom: 0%;
+}
+
+.copyright p{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+}
